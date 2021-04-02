@@ -1,0 +1,202 @@
+{
+  "default": {
+    "voiceInfo": {
+      "lang": "en-US",
+      "speaker": "V2",
+      "speed": 0.3,
+      "variation": 4
+    },
+    "types": {},
+    "macros": {
+      "i_will_call_back": {},
+      "hello": {},
+      "is_table_booked": {},
+      "name_or_number": {},
+      "when_callback": {},
+      "i_said": {},
+      "sorry_wont_call": {},
+      "i_will_wait": {},
+      "i_can_hear_you": {},
+      "dont_understand": {},
+      "dont_understand_hangup": {},
+      "mhm": {},
+      "yes_i_am_a_robot": {},
+      "greeting": {},
+      "pitch": {},
+      "pitch_2": {},
+      "customer_consent": {},
+      "bye": {},
+      "bye_fail": {},
+      "invalid_age": {},
+      "bye_common": {}
+    },
+    "phrases": {
+      "i_will_call_back": [
+        {
+          "text": "Okay, I'll call you later. Bye!"
+        }
+      ],
+      "invalid_age": [
+        {
+          "text": "Sorry the connection dropped for a second could you say your age again?"
+        }
+      ],
+      "hello": {
+        "random": [
+          [
+            {
+              "text": "Hello"
+            }
+          ],
+          [
+            {
+              "text": "Umm, hello?"
+            }
+          ]
+        ]
+      },
+      "when_callback": [
+        {
+          "text": "When can I call you back?"
+        }
+      ],
+      "i_said": [
+        {
+          "text": "I was saying"
+        }
+      ],
+      "sorry_wont_call": [
+        {
+          "text": "No problem, I take you off our calling list and I will make sure that you don’t get a call from us. Have a good day!"
+        }
+      ],
+      "i_will_wait": {
+        "random": [
+          [
+            {
+              "text": "Okay."
+            }
+          ],
+          [
+            {
+              "text": "Sure."
+            }
+          ],
+          [
+            {
+              "text": "Okay, no problem!"
+            }
+          ]
+        ]
+      },
+      "i_can_hear_you": [
+        {
+          "text": "Yes, I hear you."
+        }
+      ],
+      "dont_understand": {
+        "random": [
+          [
+            {
+              "text": "Sorry the connection dropped for a second could you say it again?"
+            }
+          ],
+          [
+            {
+              "text": "hmm"
+            }
+          ]
+        ]
+      },
+      "dont_understand_hangup": [
+        {
+          "text": "I'm sorry I can barely hear you. I'll try to call you later! Bye!"
+        }
+      ],
+      "mhm": [
+        {
+          "text": "Umm..."
+        }
+      ],
+      "yes_i_am_a_robot": 
+        {
+          "text": "umm...No! I'm a real person, maybe we have a bad connection? Sorry about that."
+        },
+      "greeting": {
+        "first": [
+          {
+            "text": "Hi! My name is Sam, and I'm with BAS Insurance. How are you doing today?"
+          }
+        ],
+        "repeat": {
+          "random": [
+            [
+              {
+                "text": "This is Sam with BAS Insurance. How are you doing?"
+              }
+            ],
+            [
+              {
+                "text": "I'm Sam with BAS Insurance. How do you do?"
+              }
+            ]
+          ]
+        }
+      },
+      "pitch": {
+        "first": [
+          {
+            "text": "Doing great, thank you for asking! I'm calling to inform you that we are offering the cheapest rates for life insurance policies. In order to qualify, I just need to ask one quick question. How old are you?"
+          }
+        ],
+        "repeat": {
+          "random": [
+            [
+              {
+                "text": "I'm calling to let you know that life insurance policy rates have come down up to 50 per ce'nt. And I just want to ask a question real quick. How old are you?"
+              }
+            ],
+            [
+              {
+                "text": "I'm calling because our life insurance policy rates have come down up to 50 per ce'nt. I just want to ask one question real quick. How old are you?"
+              }
+            ]
+          ]
+        }
+      },
+      "pitch_2": {
+        "first": [
+          {
+            "text": "I'm calling to inform you that we are offering the cheapest rates for life insurance policies. In order to qualify, I just need to ask a question real quick. How old are you?"
+          }
+        ],
+        "repeat": {
+          "random": [
+            [
+              {
+                "text": "I'm calling to let you know that life insurance policy rates have come up to 50 per ce'nt for term life, whole life and final expense. And i just need to ask one quick question. How old are you?"
+              }
+            ],
+            [
+              {
+                "text": "I'm calling to let you know that life insurance policy rates have come up to 50 per ce'nt for term life, whole life and final expense. And i just need to ask one question real quick. How old are you?"
+              }
+            ]
+          ]
+        }
+      },
+      "bye": {
+        "text": "Great! Just stay on the line please."
+      },
+      "bye_fail": {
+        "text": "I'm sorry you don't qualify, but thank you so much for your time! Good bye!"
+      },
+      "customer_consent": {
+        "text": "You seems like a perfect candidate. Kindly just bear with me for few seconds, I'm going to transfer your call to one of my specialist. Is that okay with you?"
+      },
+      "bye_common": {
+        "text": "Sorry if I bothered you, goodbye!"
+      }
+    }
+  }
+}

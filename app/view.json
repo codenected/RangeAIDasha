@@ -1,0 +1,467 @@
+{
+  "node::root": {
+    "common.position": {
+      "x": 570.0529921170647,
+      "y": 339.91426600317357
+    }
+  },
+  "node::greeting": {
+    "common.position": {
+      "x": 1539.7163242387974,
+      "y": 451.0430252108563
+    }
+  },
+  "node::transfer_money": {
+    "common.position": {
+      "x": 1200,
+      "y": 458
+    }
+  },
+  "node::amount_conformation": {
+    "common.position": {
+      "x": 1799.953125,
+      "y": 248.96875
+    }
+  },
+  "node::from_account": {
+    "common.position": {
+      "x": 0,
+      "y": 401.953125
+    }
+  },
+  "node::to_account": {
+    "common.position": {
+      "x": 599.984375,
+      "y": 433.4453125
+    }
+  },
+  "node::account_conformation": {
+    "common.position": {
+      "x": 1199.96875,
+      "y": 474.9375
+    }
+  },
+  "node::transfer_conformation": {
+    "common.position": {
+      "x": 1799.953125,
+      "y": 474.9375
+    }
+  },
+  "node::process_transfer": {
+    "common.position": {
+      "x": 1200,
+      "y": 938.5
+    }
+  },
+  "node::transfer_confirmation": {
+    "common.position": {
+      "x": 600,
+      "y": 938.5
+    }
+  },
+  "node::account_confirmation": {
+    "common.position": {
+      "x": 0,
+      "y": 795.5
+    }
+  },
+  "node::resolve_target_account": {
+    "common.position": {
+      "x": 4585.561610674385,
+      "y": 572.6636107253083
+    }
+  },
+  "node::select_target_account": {
+    "common.position": {
+      "x": 1200,
+      "y": 722.5
+    }
+  },
+  "node::resolve_source_account": {
+    "common.position": {
+      "x": 3533.5279805352798,
+      "y": 239.9026763990268
+    }
+  },
+  "node::select_source_account": {
+    "common.position": {
+      "x": 600,
+      "y": 569.5
+    }
+  },
+  "node::amount_confirmation": {
+    "common.position": {
+      "x": 0,
+      "y": 498
+    }
+  },
+  "transition::greeting:transition0": {
+    "common.description": "To new_node0"
+  },
+  "node::new_node1": {
+    "common.position": {
+      "x": 1780.268456375839,
+      "y": 217.2525922523388
+    }
+  },
+  "node::how_are_you": {
+    "common.position": {
+      "x": 0,
+      "y": 106
+    }
+  },
+  "node::new_node2": {
+    "common.position": {
+      "x": 1800,
+      "y": 480.80963923220463
+    }
+  },
+  "node::new_node3": {
+    "common.position": {
+      "x": 1800,
+      "y": 309.23764955071937
+    }
+  },
+  "node::insurance_ends": {
+    "common.position": {
+      "x": 1200,
+      "y": 169
+    }
+  },
+  "node::forward_operator": {
+    "common.position": {
+      "x": 3600,
+      "y": 237.5
+    }
+  },
+  "node::why_not": {
+    "common.position": {
+      "x": 3090.940787496243,
+      "y": 41.53321310489931
+    }
+  },
+  "node::what_insurance": {
+    "common.position": {
+      "x": 2492.3829880757107,
+      "y": 789.8651017324806
+    }
+  },
+  "node::relative": {
+    "common.position": {
+      "x": 3600,
+      "y": 383.5
+    }
+  },
+  "node::wrong_number": {
+    "common.position": {
+      "x": 3600,
+      "y": 529.5
+    }
+  },
+  "node::why_not_bye": {
+    "common.position": {
+      "x": 3600,
+      "y": 43
+    }
+  },
+  "node::greeting_person": {
+    "common.position": {
+      "x": 1236.2940045979838,
+      "y": 232.26624185855374
+    }
+  },
+  "node::insurance_end": {
+    "common.position": {
+      "x": 2400,
+      "y": 302.17520336536836
+    }
+  },
+  "node::when_i_should_call_back": {
+    "common.position": {
+      "x": 0,
+      "y": 393.5
+    }
+  },
+  "node::i_am_okay": {
+    "common.position": {
+      "x": 1800,
+      "y": 193.8885529191563
+    }
+  },
+  "node::insurance_end_2": {
+    "common.position": {
+      "x": 3090.0283080523755,
+      "y": 911.9063252814726
+    }
+  },
+  "node::is_it_right_number": {
+    "common.position": {
+      "x": 1649.392085752545,
+      "y": 703.2581802712314
+    }
+  },
+  "node::i_d_like_to_book_a_table": {
+    "common.position": {
+      "x": 880,
+      "y": 478.2140894603524
+    }
+  },
+  "node::user_name": {
+    "common.position": {
+      "x": 1795.9487563386867,
+      "y": 176.3953111898536
+    }
+  },
+  "node::people_time": {
+    "common.position": {
+      "x": 1480,
+      "y": 315.5131453188508
+    }
+  },
+  "node::another_time": {
+    "common.position": {
+      "x": 2248.9444868523765,
+      "y": 27.9466066375574
+    }
+  },
+  "node::haven_t_seat": {
+    "common.position": {
+      "x": 1480,
+      "y": 592.7022361705946
+    }
+  },
+  "node::phone_number": {
+    "common.position": {
+      "x": 1800,
+      "y": 462.56447749814646
+    }
+  },
+  "node::bye": {
+    "common.position": {
+      "x": 2080,
+      "y": 544.932281273676
+    }
+  },
+  "node::AM": {
+    "common.position": {
+      "x": 1036.4242548809746,
+      "y": 549.560974849511
+    }
+  },
+  "node::name_or_number": {
+    "common.position": {
+      "x": 1800,
+      "y": 323.2111972764827
+    }
+  },
+  "node::is_table_booked": {
+    "common.position": {
+      "x": 2080,
+      "y": 396.3278474922316
+    }
+  },
+  "node::clear_all": {
+    "common.position": {
+      "x": 600,
+      "y": 564.7609698154346
+    }
+  },
+  "node::repeat_or_ping_hangup": {
+    "common.position": {
+      "x": 0,
+      "y": 594.7315124996783
+    }
+  },
+  "node::hello_hangup": {
+    "common.position": {
+      "x": -692.7251533671518,
+      "y": -222.91652576273123
+    }
+  },
+  "node::dont_understand_hangup": {
+    "common.position": {
+      "x": -4.371300298772185,
+      "y": 218.5650149386093
+    }
+  },
+  "node::sorry_wont_call": {
+    "common.position": {
+      "x": -320,
+      "y": 320.41985475513445
+    }
+  },
+  "node::wait": {
+    "common.position": {
+      "x": 0,
+      "y": -378.88209640322606
+    }
+  },
+  "node::ping": {
+    "common.position": {
+      "x": -425.2697133374794,
+      "y": 594.3128570759644
+    }
+  },
+  "node::repeat": {
+    "common.position": {
+      "x": -47.48832308827332,
+      "y": 840.3215420712332
+    }
+  },
+  "node::repeat_hangup_params": {
+    "common.position": {
+      "x": 0,
+      "y": -163.906782867287
+    }
+  },
+  "node::repeat_preprocessor": {
+    "common.position": {
+      "x": 0,
+      "y": -85.51658236554104
+    }
+  },
+  "node::i_am_robot": {
+    "common.position": {
+      "x": -3.5631909318975437,
+      "y": -236.95219697118665
+    }
+  },
+  "node::hello_preprocessor": {
+    "common.position": {
+      "x": 0,
+      "y": -309.9976110750863
+    }
+  },
+  "node::hello": {
+    "common.position": {
+      "x": -641.3257273002332,
+      "y": -40.70029127902533
+    }
+  },
+  "node::dont_understand_preprocessor": {
+    "common.position": {
+      "x": -2.292029032454188,
+      "y": 313.8406288743375
+    }
+  },
+  "node::dont_understand": {
+    "common.position": {
+      "x": -494.99940142723517,
+      "y": -354.4373322316586
+    }
+  },
+  "node::dont_understand_hangup_params": {
+    "common.position": {
+      "x": 0,
+      "y": 385.06087745230366
+    }
+  },
+  "node::i_will_call_back": {
+    "common.position": {
+      "x": -2.292029032454188,
+      "y": 449.2376903610209
+    }
+  },
+  "node::answering_machine": {
+    "common.position": {
+      "x": 0,
+      "y": 508.8304452048298
+    }
+  },
+  "node::people": {
+    "common.position": {
+      "x": 1480,
+      "y": 89.59500287668774
+    }
+  },
+  "node::time": {
+    "common.position": {
+      "x": 1480,
+      "y": 199.4218134306216
+    }
+  },
+  "node::AM_check": {
+    "common.position": {
+      "x": 1063.1528332259038,
+      "y": 824.9154940341479
+    }
+  },
+  "node::bye_win": {
+    "common.position": {
+      "x": 3223.967274138649,
+      "y": 339.0580973506322
+    }
+  },
+  "node::hangup": {
+    "common.position": {
+      "x": -441.790175676107,
+      "y": 211.14971631578643
+    }
+  },
+  "node::bye_fail": {
+    "common.position": {
+      "x": 2554.868233779866,
+      "y": 534.0557280640204
+    }
+  },
+  "node::pitch": {
+    "common.position": {
+      "x": 2030.285733805639,
+      "y": 388.19063230363815
+    }
+  },
+  "node::customer_consent": {
+    "common.position": {
+      "x": 2521.578800350549,
+      "y": 290.8981273629224
+    }
+  },
+  "node::unsuitable_age": {
+    "common.position": {
+      "x": 2590.9132964481564,
+      "y": 705.6591437016986
+    }
+  },
+  "node::new_node0": {
+    "common.position": {
+      "x": 3000,
+      "y": 652.0728071083313
+    }
+  },
+  "node:wait:return": {
+    "common.position": {
+      "x": -461.70996799791817,
+      "y": 95.52620027543135
+    }
+  },
+  "node::bye_common": {
+    "common.position": {
+      "x": 3214.239613202028,
+      "y": 639.9528038015596
+    }
+  },
+  "node:wait:wait": {
+    "common.position": {
+      "x": 70.290002846926,
+      "y": -182.18021146040007
+    }
+  },
+  "node::can_hear_you": {
+    "common.position": {
+      "x": 67.42102313888822,
+      "y": -83.20041153309609
+    }
+  },
+  "node::parse_number": {
+    "common.position": {
+      "x": 427.47797649763163,
+      "y": -170.70429262824888
+    }
+  },
+  "node::invalid_age": {
+    "common.position": {
+      "x": 2558.929840204808,
+      "y": 1005.8236934625827
+    }
+  }
+}

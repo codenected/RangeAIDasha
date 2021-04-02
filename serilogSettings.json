@@ -1,0 +1,40 @@
+{
+  "Serilog": {
+    "Using": [ "Serilog.Sinks.Console", "Sentry.Serilog" ],
+    "LevelSwitches": {
+      "$appLogLevel": "Debug",
+      "$netLogLevel": "Information",
+      "$hostingLogLevel": "Information",
+      "$sysLogLevel": "Information",
+      "$consoleLogLevel": "Information",
+      "$sentryLogLevel": "Error"
+    },
+    "MinimumLevel": {
+      "ControlledBy": "$appLogLevel",
+      "Override": {
+        "Microsoft": "$netLogLevel",
+        "Microsoft.Hosting.Lifetime": "$hostingLogLevel",
+        "System": "$sysLogLevel"
+      }
+    },
+    "WriteTo": [
+      {
+        "Name": "Console",
+        "Args": {
+          "formatter": "DashaAI.Common.AspNetTools.Logging.JsonFormatterWithRenderMessage, CommonAspNetTools",
+          "controlLevelSwitch": "$consoleLogLevel"
+        }
+      },
+      {
+        "Name": "Sentry",
+        "Args": {
+          "controlLevelSwitch": "$sentryLogLevel"
+        }
+      }
+    ],
+    "Enrich": [ "FromLogContext" ],
+    "Properties": {
+      "Application": "ProfilerJob"
+    }
+  }
+}
